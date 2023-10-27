@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Contact Form 09</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="row justify-content-center">
+				
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-10 col-md-12">
+					<div class="wrapper">
+						<div class="row justify-content-center">
+							<div class="col-lg-8 mb-5">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		
+					        		
+					          </div>
+									</div>
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		
+					        		</div>
+					        		
+					          </div>
+									</div>
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		
+					        		
+					          </div>
+									</div>
+								</div>
+							</div>
+							<div >
+								<div class="contact-wrap">
+									<h3 class="mb-4 text-center" style="font-size: 35px;color: #b88c08;"><b>Bike Rental Prediction</b></h3 >
+									<div id="form-message-warning" class="mb-4 w-100 text-center"></div> 
+				      		<div id="form-message-success" class="mb-4 w-100 text-center">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="number" class="form-control" name="Temprature" id="Temprature" placeholder="Temprature">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="number" class="form-control" name="Humidity" id="name" placeholder="Humidity">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="number" class="form-control" name="Hour" id="Hour" placeholder="Hour" min="0" max="23">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+								
+													<input type="checkbox"  name="Is_Rush_Hour" id="is_rush_hour" value="is_rush_hour">
+													<label for="is_rush_hour"> Is_Rush_Hour</label>
+													
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="number" class="form-control" name="month" id="Month" placeholder="Month" min="1" max="12">
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<label for="Season">Choose a Season:</label>
+													<select id="Season" name="Season">
+													  <option value="Summer">Summer</option>
+													  <option value="Winter">Winter</option>
+													  <option value="Spring">Spring</option>
+													  <option value="Fall">Fall</option>
+													</select> 
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<label for="Season">Choose Weather:</label>
+													<select id="Weather" name="Weather">
+													  <option value="Mist">Mist</option>
+													  <option value="Rainy">Rainy</option>
+													  <option value="Snowy">Snowy</option>
+													  <option value="Clear">Clear</option>
+													</select> 
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<label for="Day">Week_Day_Name:</label>
+													<select id="Day" name="Day">
+													  <option value="Fri">Fri</option>
+													  <option value="Sa">Sa</option>
+													  <option value="su">su</option>
+													  <option value="Mon">Mon</option>
+													  <option value="Tues">Tues</option>
+													  <option value="Wed">Wed</option>
+													  <option value="Thu">Thu</option>
+													</select> 
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<label for="Peroid_of_day">Peroid_of_day:</label>
+													<select id="Peroid" name="Peroid">
+													  <option value="Evening">Evening</option>
+													  <option value="Morning">Morning</option>
+													  <option value="Night">Night</option>
+													  <option value="Afternoon">Afternoon</option>
+													</select> 
+												</div>
+											</div>
+											
+											
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" style="font-size: 25px;"    value="Predict" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+									<div >
+										<div class="contact-wrap">
+											<h3 class="mb-4 text-center">Predicted Profit is : 200 USD</h3 >
+											<div id="form-message-warning" class="mb-4 w-100 text-center"></div> 
+									  <div id="form-message-success" class="mb-4 w-100 text-center">
+									Your message was sent, thank you!
+									  </div>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
+</html>
+
