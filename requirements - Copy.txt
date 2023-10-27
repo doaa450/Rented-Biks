@@ -1,8 +1,7 @@
 ﻿
 Flask
 
-gunicorn==19.7.1
-
+gunicorn==21.2.0
 Jinja2
 joblib 
 matplotlib 
