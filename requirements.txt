@@ -14,4 +14,4 @@ scikit-learn
 scipy
 seaborn
 
-xgboost
+xgboost==2.0.1
