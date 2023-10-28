@@ -1,2 +1,2 @@
 # Rented-Biks
-https://bike-prediction.onrender.com
+https://bp-5vrw.onrender.com
